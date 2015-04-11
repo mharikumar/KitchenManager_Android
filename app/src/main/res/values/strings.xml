@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kitchen Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_event_main">EventMain</string>
+    <string name="title_activity_event_recipe_list">EventRecipeList</string>
+    <string name="title_activity_event_choose_recipe">EventChooseRecipe</string>
+    <string name="title_activity_recipe_main">RecipeMain</string>
+    <string name="title_activity_recipe_add_rcipe_form">RecipeAddRcipeForm</string>
+    <string name="title_activity_recipe_view_recipe">RecipeViewRecipe</string>
+    <string name="title_activity_inventory_main">InventoryMain</string>
+    <string name="title_activity_inventory_add_item_form">InventoryAddItemForm</string>
+    <string name="title_activity_inventory_edit_item">InventoryEditItem</string>
+    <string name="title_activity_shopping_list_main">ShoppingListMain</string>
+    <string name="title_activity_shopping_list_add_item">ShoppingListAddItem</string>
+    <string name="title_activity_shopping_list_edit_item">ShoppingListEditItem</string>
+
+</resources>

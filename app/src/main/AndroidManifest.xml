@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mharikumar.kitchenmanager" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.TabHostActivity"
+            android:label="@string/title_activity_event_main" >
+        </activity>
+        <activity android:name="com.example.mharikumar.kitchenmanager.RecipesActivity"/>
+        <activity android:name="com.example.mharikumar.kitchenmanager.InventoryActivity"/>
+        <activity android:name="com.example.mharikumar.kitchenmanager.EventsActivity"/>
+        <activity android:name="com.example.mharikumar.kitchenmanager.ShoppingActivity"/>
+
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.EventMain"
+            android:label="@string/title_activity_event_main" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.EventRecipeList"
+            android:label="@string/title_activity_event_recipe_list" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.EventChooseRecipe"
+            android:label="@string/title_activity_event_choose_recipe" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.RecipeMain"
+            android:label="@string/title_activity_recipe_main"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.RecipeAddRcipeForm"
+            android:label="@string/title_activity_recipe_add_rcipe_form" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.RecipeViewRecipe"
+            android:label="@string/title_activity_recipe_view_recipe" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.InventoryMain"
+            android:label="@string/title_activity_inventory_main" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.InventoryAddItemForm"
+            android:label="@string/title_activity_inventory_add_item_form" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.InventoryEditItem"
+            android:label="@string/title_activity_inventory_edit_item" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.ShoppingListMain"
+            android:label="@string/title_activity_shopping_list_main" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.ShoppingListAddItem"
+            android:label="@string/title_activity_shopping_list_add_item" >
+        </activity>
+        <activity
+            android:name="com.example.mharikumar.kitchenmanager.ShoppingListEditItem"
+            android:label="@string/title_activity_shopping_list_edit_item" >
+        </activity>
+    </application>
+
+</manifest>
